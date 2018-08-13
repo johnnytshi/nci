@@ -1,0 +1,11 @@
+Namespace(colormode='bgr', dim=[300, 300], graph='../../caffe/SSD_MobileNet/graph', labels='../../caffe/SSD_MobileNet/labels.txt', mean=[127.5, 127.5, 127.5], min_score_thresh=0.6, scale=0.00789, slack_channel=None, slack_token='xoxb-263626238676-Kb4qBKhRj2I4ShlIzzUQkMrJ', sleep_time=0.3, video_source='rtsp://admin:Bing2009@192.168.2.15:554/h264/ch1/main/av_stream')
+Traceback (most recent call last):
+  File "security.py", line 257, in <module>
+    main()
+  File "security.py", line 157, in main
+    device = open_ncs_device()
+  File "security.py", line 48, in open_ncs_device
+    device.OpenDevice()
+  File "/usr/local/lib/python3.5/dist-packages/mvnc/mvncapi.py", line 147, in OpenDevice
+    raise Exception(Status(status))
+Exception: mvncStatus.ERROR
